@@ -1,0 +1,36 @@
+header{
+    background-color: #222222;
+}
+
+.cabecalho{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.cabecalho__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__logo{
+    width: 100px;
+
+}
+
+.cabecalho__nav{
+    display: flex;
+}
+
+.cabecalho__nav a{
+    display: block;
+    padding: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #705A32;
+    box-shadow: 5px 5px #91836a ;
+    border: solid 1px #91836a;
+    border-radius: 3px;
+}
+

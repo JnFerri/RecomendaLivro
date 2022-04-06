@@ -1,0 +1,14 @@
+.conteudo{
+    background-color: #91836a;
+    margin: 0;
+}
+
+.apresentacao__lista{
+    margin: 0 auto;
+}
+
+.apresentacao__video{
+    width: 40%;
+    box-shadow: 10px 10px  #000000;
+    border-radius: 20px;
+}
