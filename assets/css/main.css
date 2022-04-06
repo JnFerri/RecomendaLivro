@@ -9,8 +9,20 @@
 }
 
 .apresentacao__titulo{
-    font-size: 3.75rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Cardo', serif;
+    margin-bottom: 4rem;
+    font-weight: bold;
 
+}
+
+.apresentacao__paragrafo{
+    font-family: 'Cardo', serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-justify: auto;
+    text-align: justify;
 }
 
 .apresentacao__container{
@@ -30,5 +42,5 @@
     box-shadow: 20px 20px  #000000;
     border-radius: 10px;
     margin: 60px auto;
-    border: solid 2px #000000;
+    border: solid 2px #705A32;
 }
