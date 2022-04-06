@@ -5,10 +5,30 @@
 
 .apresentacao__lista{
     margin: 0 auto;
+    padding: 2rem;
 }
 
+.apresentacao__titulo{
+    font-size: 3.75rem;
+
+}
+
+.apresentacao__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.apresentacao__lista{
+    display: flex;
+    flex-direction: column;
+    width: 40% ;
+    
+}
 .apresentacao__video{
     width: 40%;
-    box-shadow: 10px 10px  #000000;
-    border-radius: 20px;
+    box-shadow: 20px 20px  #000000;
+    border-radius: 10px;
+    margin: 60px auto;
+    border: solid 2px #000000;
 }
