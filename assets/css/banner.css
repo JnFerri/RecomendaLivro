@@ -12,13 +12,18 @@
 
 .banner__titulo{
     font-size: 5rem;
-    font-family: pacifico, cursive;
+    font-family: 'Heebo', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Special Elite', cursive;
     position: absolute;
-    top: calc(50% - 100px);
-    text-align: center;
-    margin: 0 10%;
-    text-shadow: 5px 5px #000000;
-    color: #705A32; 
+    top: 40%;
+    align-items: center;
+    margin: 0 15%;
+    width: 100%;
+    text-shadow: 5px 5px #91836a;
+    color:#222222; 
     
 
 }
+

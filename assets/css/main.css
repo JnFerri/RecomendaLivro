@@ -11,14 +11,16 @@
 .apresentacao__titulo{
     font-size: 3rem;
     text-transform: uppercase;
-    font-family: 'Cardo', serif;
+    font-family: 'Courier Prime', monospace;
     margin-bottom: 4rem;
+    margin-top: 4rem;
     font-weight: bold;
+
 
 }
 
 .apresentacao__paragrafo{
-    font-family: 'Cardo', serif;
+    font-family: 'Courier Prime', monospace;
     font-size: 1.5rem;
     font-weight: 100;
     text-justify: auto;
@@ -42,5 +44,69 @@
     box-shadow: 20px 20px  #000000;
     border-radius: 10px;
     margin: 60px auto;
-    border: solid 2px #705A32;
+    border: solid 2px #000000;
 }
+
+.livros__titulo {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Courier Prime', monospace;
+    margin-bottom: 4rem;
+    font-weight: bold;
+    margin-left: 6%;
+
+}
+
+.livros__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+ .livro{
+     display: flex;
+     text-align: center;
+     flex-direction: column;
+     width: 20%;
+     background-color: #705A32;
+     align-items: center;
+     border-radius: 10px;
+     box-shadow: 20px 20px black;
+     margin-bottom: 4rem;
+     border: #000000 solid 2px;
+     scale: 1;
+
+ }
+
+ .livro:hover{
+    transform: scale(1.1);
+}
+
+ .livro__img{
+     height: 300px;
+     padding: 20px 0;
+ }
+
+ .livro__titulo{
+     font-size: 1.5rem;
+     font-family: 'Courier Prime', monospace;
+     width: auto;
+
+ }
+
+ .livro__autor{
+     font-size: 1.25rem;
+     font-family: 'Courier Prime', monospace;
+     width: auto;
+ }
+
+ .livro__link{
+     display: flex;
+     flex-direction: column ;
+     align-items: center;
+     text-decoration: none;
+     color: #111111;
+     width: 100%;
+     padding: 5px 5px;
+ }
+
+ 

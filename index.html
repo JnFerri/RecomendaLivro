@@ -5,6 +5,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo&family=Inter:wght@700&family=Montserrat&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,12 +38,12 @@
     </header>
     <section class="banner">
         <div class="banner__imagem"></div>
-        <h2 class="banner__titulo">Leitura é o sentimento de viver aventuras ou pensamentos</h2>
+        <h2 class="banner__titulo">A leitura engrandece a alma</h2>
     </section>
     <main class="conteudo">
         <section class="apresentacao">
 
-            <div class="apresentacao__container">
+            <div class="apresentacao__container" data-anime="left">
                 <ul class="apresentacao__lista" type="none">
                     <li>
                         <h2 class="apresentacao__titulo">Sobre o recomenda Livro</h2>
@@ -55,40 +61,44 @@
                 <video src="assets/videos/Ola Sou (1).mp4" autoplay loop class="apresentacao__video"></video>
             </div>
         </section>
-        <section class="recomendacoes">
-            <div class="recomendacoes__conteudo">
-                <h2 class="recomendacoes__titulo">Livros</h2>
-                <div class="recomendacoes__container">
-                        <div class="recomendacoes_box">
-                            <a class="recomendacoes__link">
-                                <img src="assets/img/cartas a meneceu.png" alt="livro cartas a meneceu">
-                                <h3>Cartas a Meneceu</h3>
-                                <p>Autor: Epicuro</p>
+        <section class="livros">
+                <h2 class="livros__titulo">Livros</h2>
+                <div class="livros__container">
+                        <div class="livro">
+                            <a href="livro.html" class="livro__link">
+                                <img src="assets/img/cartas a meneceu.png" alt="livro cartas a meneceu" class="livro__img">
+                                <h3 class="livro__titulo">Cartas a Meneceu</h3>
+                                <p class="livro__autor">Autor: Epicuro</p>
                             </a>
                         </div>
-                        <div class="recomendacoes_box">
-                            <a>
-                                <img src="assets/img/brevidade da vida.png" alt="Livro sobre a brevidade da vida">
-                                <h3>Sobre a brevidade da vida</h3>
-                                <p>Autor: Seneca</p>
+                        <div class="livro">
+                            <a  href="livro.html"class="livro__link">
+                                <img src="assets/img/brevidade da vida.png" alt="Livro sobre a brevidade da vida" class="livro__img">
+                                <h3 class="livro__titulo">Sobre a brevidade da vida</h3>
+                                <p class="livro__autor">Autor: Seneca</p>
                             </a>
                         </div>
-                        <div class="recomendacoes_box">
-                            <a>
-                                <img src="assets/img/juventude-removebg-preview.png" alt="Livro juventude">
-                                <h3>Juventude</h3>
-                                <p>Autor: Joseph Conrad</p>
+                        <div class="livro">
+                            <a href="livro.html" class="livro__link">
+                                <img src="assets/img/juventude-removebg-preview.png" alt="Livro juventude" class="livro__img">
+                                <h3 class="livro__titulo">Juventude</h3>
+                                <p class="livro__autor">Autor: Joseph Conrad</p>
                             </a>
                         </div>
                 </div>
                 </ul>
-            </div>
+           
         </section>
 
     </main>
 
     <footer>
-
+        <ul>
+            <li>
+                <h3>Contato</h3>
+                
+            </li>
+        </ul>
     </footer>
     
 </body>
