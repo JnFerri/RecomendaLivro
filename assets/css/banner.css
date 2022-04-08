@@ -1,5 +1,4 @@
 .banner{
-    position: relative;
     width: 100%;
     margin: 0;
 }
@@ -7,20 +6,16 @@
 .banner__imagem{
     background: url(../img/banner.jpg) no-repeat center / cover;
     height: calc(100vh - 100px);
-    width: 100%;
+    position: relative;
 }
 
 .banner__titulo{
     font-size: 5rem;
-    font-family: 'Heebo', sans-serif;
-font-family: 'Inter', sans-serif;
-font-family: 'Montserrat', sans-serif;
 font-family: 'Special Elite', cursive;
     position: absolute;
+    text-align: center;
     top: 40%;
-    align-items: center;
-    margin: 0 15%;
-    width: 100%;
+    margin: auto 20%;
     text-shadow: 5px 5px #91836a;
     color:#222222; 
     

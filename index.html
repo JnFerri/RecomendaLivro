@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 
 </head>
 <body>
@@ -37,14 +38,15 @@
         </section>
     </header>
     <section class="banner">
-        <div class="banner__imagem"></div>
+        <div class="banner__imagem">
         <h2 class="banner__titulo">A leitura engrandece a alma</h2>
+    </div>
     </section>
     <main class="conteudo">
         <section class="apresentacao">
 
-            <div class="apresentacao__container" data-anime="left">
-                <ul class="apresentacao__lista" type="none">
+            <div class="apresentacao__container">
+                <ul class="apresentacao__lista" type="none" data-anime="left">
                     <li>
                         <h2 class="apresentacao__titulo">Sobre o recomenda Livro</h2>
                     </li>
@@ -58,10 +60,10 @@
 
                     
                 </ul>
-                <video src="assets/videos/Ola Sou (1).mp4" autoplay loop class="apresentacao__video"></video>
+                <video src="assets/videos/Ola Sou (1).mp4" autoplay loop class="apresentacao__video" data-anime="right"></video>
             </div>
         </section>
-        <section class="livros">
+        <section class="livros" data-anime="left">
                 <h2 class="livros__titulo">Livros</h2>
                 <div class="livros__container">
                         <div class="livro">
@@ -92,13 +94,16 @@
 
     </main>
 
-    <footer>
-        <ul>
-            <li>
-                <h3>Contato</h3>
-                
-            </li>
-        </ul>
+    <footer class="footer">
+        
+            
+                <div class="footer__container">
+                    <img class="footer__img" src="assets/img/logo.png" alt=" logo recomenda livros">
+                    
+                    <h3 class="footer__contato">Contato: jeanferrimh@gmail.com</h3>
+                </div>
+            
+        
     </footer>
     
 </body>
