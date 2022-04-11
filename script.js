@@ -56,17 +56,26 @@ window.addEventListener('scroll', debounce(function(){
 
 var botaoaddLivro = document.getElementById('botaoAddNovoLivro')
 
+console.log(addlivrotarget)
 
-var novoLivro =  Array.from(document.querySelectorAll('.formulario')).map(function(elemento, indice, arrayBase){
-    
-    console.log(elemento)
-        
+function adicionarLivro(){
+   var imagem = document.getElementById("imagemPost").value
+    var nomeLivro = document.getElementById("nomeLivro").value
+    var nomeAutor = document.getElementById("nomeAutor").value
+    var descricao = document.getElementById("descricaoLivro").value 
 
-     return {imagem: imagem, nome: nome, autor: autor, descricao: descricao}
 
-    
-     
+   const informacoes = { 
+       imagem: imagem,
+       nome: nomeLivro,
+       autor: nomeAutor,
+       descricao:descricao
+                                }  
+   console.log( informacoes )
+                                                               
 
-    
-    
-})
+                                
+
+   
+
+}
