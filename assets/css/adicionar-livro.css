@@ -1,0 +1,33 @@
+main{
+    background-color: #91836a;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    border: none;
+}
+
+.formulario div{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+}
+
+.formulario__text{
+    padding: 10px 10px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: solid 2px black;
+    box-shadow: 5px 5px black;
+
+}
+
+#descricaoLivro{
+    padding: 10px 10px;
+    margin: 5px 10px;
+    border: solid 2px black;
+    box-shadow: 5px 5px black;
+    border-radius: 10px;
+}

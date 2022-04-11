@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/banner.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/adicionar-livro.css">
 
 </head>
 <body>
@@ -43,11 +44,28 @@
     </header>
 
     <main>
-        <form action="assets/img" method="post" class="formulario__imagem" enctype="multipart/form-data">
-            <input type="file" class="addimagem" id="imagem">
-            <input type="submit" value="Anexar" id="botaoImg" onclick="addimg()">
-            <div id="imgNova"></div>
-        </form>
+        <fieldset class="formulario">
+                <div class="formulario__elementos">
+                    <label for="Imagem">Imagem :</label>
+                        <input type="text" id="imagemPost" class="formulario__text imagemPost" placeholder="src imagem">
+                </div>
+                <div  class="formulario__elementos">
+                    <label for="nomeAutor">Nome do Livro:</label>
+                    <input type="text" id="nomeLivro" class="formulario__text nomeLivro" placeholder="Nome do Livro">
+                </div>
+                <div class="formulario__elementos">
+                    <label for="nomeAutor">Nome do Autor</label>
+                    <input type="text" id="nomeAutor" class="formulario__text nomeAutor" placeholder="Nome Autor">
+                </div>
+                <div class="formulario__elementos">
+                    <label for="descricaodoLivro">Descrição do livro:</label>
+                    <textarea name="descricaoLivro" id="descricaoLivro" cols="100" rows="30" class="descricaoLivro" placeholder="Descricao do Livro">
+                     </textarea>
+                </div>
+                <input type="submit" id="botaoAddNovoLivro">
+
+        </fieldset>
+        
     </main>
 
     <footer class="footer">

@@ -1,0 +1,20 @@
+{
+  "name": "recomendalivro",
+  "version": "1.0.0",
+  "description": "projeto do recomenda livro",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JnFerri/RecomendaLivro.git"
+  },
+  "author": "Jean Ferri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JnFerri/RecomendaLivro/issues"
+  },
+  "homepage": "https://github.com/JnFerri/RecomendaLivro#readme",
+  "type": "module"
+}
