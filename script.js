@@ -1,4 +1,4 @@
-//import {Livro} from "./livro.js"
+import {Livro} from "./adicionarLivro/Livro.js"
 
 
 var teste = Array.from(document.querySelectorAll('.livro__link')).map(function( elemento , indice, arrayBase){
@@ -51,31 +51,3 @@ window.addEventListener('scroll', debounce(function(){
 }, 100))
 }
 
-
-// teste adicionar imagem
-
-var botaoaddLivro = document.getElementById('botaoAddNovoLivro')
-
-console.log(addlivrotarget)
-
-function adicionarLivro(){
-   var imagem = document.getElementById("imagemPost").value
-    var nomeLivro = document.getElementById("nomeLivro").value
-    var nomeAutor = document.getElementById("nomeAutor").value
-    var descricao = document.getElementById("descricaoLivro").value 
-
-
-   const informacoes = { 
-       imagem: imagem,
-       nome: nomeLivro,
-       autor: nomeAutor,
-       descricao:descricao
-                                }  
-   console.log( informacoes )
-                                                               
-
-                                
-
-   
-
-}
