@@ -1,5 +1,5 @@
 
-var LivrosArray=[]
+var listaObjetos=[]
 
 
 
@@ -11,15 +11,23 @@ function adicionarNovoLivro(){
     var descricao = document.getElementById("descricaoLivro").value 
 
 
-    LivrosArray.push( { 
+    listaObjetos.push( { 
        imagem: imagem,
        nome: nomeLivro,
        autor: nomeAutor,
-       descricao:descricao
+       descricao:descricao,
+
+       publicacao: `<div class="livro">
+       <a  href="livro.html"class="livro__link" >
+           <img src="${imagem}" alt="imagem ${nome}" class="livro__img">
+           <h3 class="livro__titulo">${nome}</h3>
+           <p class="livro__autor">Autor: ${autor}</p>
+       </a>
+   </div>`,
                                 }  
     )
 
-
+   
 
 
 
@@ -46,5 +54,3 @@ class Livro {
 }
 }
 
-
-console.log(livro)
