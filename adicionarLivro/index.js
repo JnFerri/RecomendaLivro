@@ -59,23 +59,23 @@ var localForm = document.querySelector('.formulario__container')
 function abrirForm(){
     localForm.innerHTML = `<form action="livro.js" class="formulario">
     <div class="formulario__elementos">
-        <label for="Imagem">Imagem :</label>
-            <input type="text" id="imagemPost" class="formulario__text imagemPost" placeholder="src imagem">
+        <label for="Imagem" class="formulario__label">Imagem :</label>
+            <input type="text" id="imagemPost" class="formulario__text imagemPost" placeholder="Endereço da Imagem">
     </div>
     <div  class="formulario__elementos">
-        <label for="nomeAutor">Nome do Livro:</label>
+        <label for="nomeAutor" class="formulario__label">Nome do Livro:</label>
         <input type="text" id="nomeLivro" class="formulario__text nomeLivro" placeholder="Nome do Livro">
     </div>
     <div class="formulario__elementos">
-        <label for="nomeAutor">Nome do Autor</label>
-        <input type="text" id="nomeAutor" class="formulario__text nomeAutor" placeholder="Nome Autor">
+        <label for="nomeAutor" class="formulario__label">Nome do Autor</label>
+        <input type="text" id="nomeAutor" class="formulario__text nomeAutor" placeholder="Nome do Autor">
     </div>
     <div class="formulario__elementos">
-        <label for="descricaodoLivro">Descrição do livro:</label>
+        <label for="descricaodoLivro" class="formulario__label">Descrição do livro:</label>
         <textarea name="descricaoLivro" id="descricaoLivro" cols="100" rows="30" class="descricaoLivro" placeholder="Descricao do Livro">
          </textarea>
     </div>
-   <input type="button" value="Enviar" onclick="adicionarNovoLivro()">
+   <input type="button" value="Adicionar Livro" class="formulario__botao formulario__elemento" onclick="adicionarNovoLivro()">
 </form>`
 }
 
