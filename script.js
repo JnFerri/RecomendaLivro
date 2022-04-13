@@ -1,4 +1,4 @@
-import {Livro} from "./adicionarLivro/Livro.js"
+
 
 
 var teste = Array.from(document.querySelectorAll('.livro__link')).map(function( elemento , indice, arrayBase){

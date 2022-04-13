@@ -63,6 +63,7 @@
                 <video src="assets/videos/Ola Sou (1).mp4" autoplay loop class="apresentacao__video" data-anime="right"></video>
             </div>
         </section>
+        
         <section class="livros" data-anime="left">
                 <h2 class="livros__titulo">Livros</h2>
                 <div class="livros__container">
@@ -92,6 +93,16 @@
            
         </section>
 
+        <section class="formulario">
+                <div class="formulario__adicionador">
+                    <h3>Adicione um novo livro :</h3>
+                    <input type="button" value="Clique Aqui" id="botaoAbrirForm" class="formulario_botaoabrir" onclick="abrirForm()">
+                    <div class="formulario__container">
+
+                    </div>
+                </div>
+        </section>
+
     </main>
 
     <footer class="footer">
@@ -106,6 +117,8 @@
         
     </footer>
     
-    <script type = "module" src="script.js"></script>
+    <script src="adicionarLivro/index.js"></script>
+    <script src="script.js"></script>
+    
 </body>
 </html>
