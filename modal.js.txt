@@ -1,0 +1,16 @@
+
+
+var descendentes = document.querySelectorAll("#livro button");
+var modal = document.querySelector('.modal')
+var imgModal = document.querySelector('.modal__imagem')
+var descricaoModal = document.querySelector('.modal__descricao')
+for (var i = 0; i < descendentes.length; i++) {
+    descendentes[i].addEventListener("click", function (e) {
+        modal.style.visibility = visible
+	imgModal.innerHTML = `<img src="{this.listaObjetos[i].imagem}" class="modal__imagem">`
+	descricaoModal.innerHTML = `<p class="modal__descricao">${this.listaObjetos[i].descricao}<p>`
+	
+    })
+}
+
+
