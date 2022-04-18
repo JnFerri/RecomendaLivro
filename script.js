@@ -51,3 +51,11 @@ window.addEventListener('scroll', debounce(function(){
 }, 100))
 }
 
+
+
+/*var descendentes = document.querySelectorAll("#livro__link");
+for (var i = 0; i < descendentes.length; i++) {
+    descendentes[i].addEventListener("click", function (e) {
+        alert('O elemento clicado foi o ' + this.innerHTML);
+    })
+} */
