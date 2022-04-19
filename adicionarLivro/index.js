@@ -45,10 +45,10 @@ function postarLivro(){
         </button>
     </div>`
 
-    
+
 }
 
-
+//var descendentes = document.querySelectorAll('.livro__link')
     localPostagem.innerHTML += publicacao
 
     

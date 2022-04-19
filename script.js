@@ -41,7 +41,7 @@ window.addEventListener('scroll', debounce(function(){
 var modalContainer = document.querySelector('.modal__container')
 var modal = document.querySelector('.modal')
 var imgModal = document.querySelector('.modal__imagem').src
-var descendentes = [document.querySelectorAll('.livro__link')]
+var descendentes = document.querySelectorAll('.livro__link')
 function selecionarModal(){
 
 for (var i = 0; i < descendentes.length; i++) {
