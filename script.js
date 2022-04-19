@@ -1,16 +1,5 @@
 
 
-
-var teste = Array.from(document.querySelectorAll('.livro__link')).map(function( elemento , indice, arrayBase){
-    const imagem = (elemento.querySelector('.livro__img').src)
-    const titulo = (elemento.querySelector('.livro__titulo').innerHTML)
-    const autor = (elemento.querySelector('.livro__autor').innerHTML)
-return { imagem: imagem, titulo: titulo, autor: autor}
-}
-   
-)
-
-
 //animação dos itens surgindo
 
 const debounce = function(func, wait, immediate) {
@@ -47,15 +36,34 @@ animeScroll()
 if(target.length) {
 window.addEventListener('scroll', debounce(function(){
     animeScroll()
-    console.log('aasas')
 }, 100))
+}
+var modalContainer = document.querySelector('.modal__container')
+var modal = document.querySelector('.modal')
+var imgModal = document.querySelector('.modal__imagem').src
+var descendentes = [document.querySelectorAll('.livro__link')]
+function selecionarModal(){
+
+for (var i = 0; i < descendentes.length; i++) {
+
+    descendentes[i].addEventListener('click', function (){
+    var imagem = this.querySelector('.livro__img').src
+     var descricao = this.querySelector('.descricao').innerHTML
+        
+        modalContainer.innerHTML = `<img  class="modal__imagem" src="${imagem}" alt="imagem livro ">
+        ${descricao}`
+        
+        modal.style.visibility = 'visible'
+            
+        
+        })
+    }
+
+    
 }
 
 
+function fecharModal(){
+    modal.style.visibility = "hidden"
+}
 
-/*var descendentes = document.querySelectorAll("#livro__link");
-for (var i = 0; i < descendentes.length; i++) {
-    descendentes[i].addEventListener("click", function (e) {
-        alert('O elemento clicado foi o ' + this.innerHTML);
-    })
-} */

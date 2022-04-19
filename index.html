@@ -69,41 +69,38 @@
                 <h2 class="livros__titulo">Livros</h2>
                 <div class="livros__container">
                         <div class="livro">
-                            <a href="livro.html" class="livro__link">
+                            <button class="livro__link" onclick='selecionarModal()'>
                                 <img src="assets/img/cartas a meneceu.png" alt="livro cartas a meneceu" class="livro__img">
                                 <h3 class="livro__titulo">Cartas a Meneceu</h3>
                                 <p class="livro__autor">Autor: Epicuro</p>
-                            </a>
+                                <p class="descricao" style="visibility: hidden">asdasdasdasdasdasdasdasdasdasdasdasdasd</p>
+                            </button>
                         </div>
                         <div class="livro">
-                            <a  href="livro.html"class="livro__link" >
+                            <button class="livro__link" >
                                 <img src="assets/img/brevidade da vida.png" alt="Livro sobre a brevidade da vida" class="livro__img">
                                 <h3 class="livro__titulo">Sobre a brevidade da vida</h3>
                                 <p class="livro__autor">Autor: Seneca</p>
-                            </a>
+                            </button>
                         </div>
                         <div class="livro">
-                            <a href="livro.html" class="livro__link">
+                            <button class="livro__link">
                                 <img src="assets/img/juventude-removebg-preview.png" alt="Livro juventude" class="livro__img">
                                 <h3 class="livro__titulo">Juventude</h3>
                                 <p class="livro__autor">Autor: Joseph Conrad</p>
-                            </a>
+                            </button>
                         </div>
                 </div>
                 </ul>
                 
         </section>
 
-        <div class="modal">
-            <input type="button" value="Voltar" class="modal__botao">
+        <div class="modal" style="visibility: hidden;">
+            <input type="button" value="Voltar" class="modal__botao" onclick="fecharModal()">
 
             <div class="modal__container">
-                <img  class="modal__imagem" src="https://www.adobe.com/br/express/create/cover/media_185cb84ecbce048cdc76d91c069fe151e12a98df2.png?width=400&format=png&optimize=medium" alt="imagem livro ">
-                <p class="modal__descricao">Efraim é um rapaz que só quer aventuras sexuais. Ele usa as garotas e logo as descarta. Por que será que ele ignora os sentimentos das jovens e não mede as conseqüências de seus atos?
-
-                    Um dia ele descobre um fato inesperado que vai mudar profundamente sua vida. Nasce um novo Efraim, que cresce, amadurece, aprende e reflete sobre suas experiências negativas e destrutivas do passado. O que de fato teria acontecido para que aquele rapaz irresponsável, displicente e inseguro se transformasse de forma tão radical?
-                    
-                    Juventude em êxtase, livro de Carlos Cuauhtémoc Sánchez, é um romance sobre namoro e as angústias de um rapaz que passa a querer compreender o universo feminino.</p>
+                <img  class="modal__imagem" src="" alt="imagem livro ">
+                <p class="modal__descricao"></p>
             </div>
         </div>
 
