@@ -42,13 +42,15 @@ var modalContainer = document.querySelector('.modal__container')
 var modal = document.querySelector('.modal')
 var imgModal = document.querySelector('.modal__imagem').src
 var descendentes = document.querySelectorAll('.livro__link')
+
 function selecionarModal(){
 
+    var descendentes = document.querySelectorAll('.livro__link')
 for (var i = 0; i < descendentes.length; i++) {
 
     descendentes[i].addEventListener('click', function (){
     var imagem = this.querySelector('.livro__img').src
-     var descricao = this.querySelector('.descricao').innerHTML
+     var descricao = `<p class='modal__descricao'>${this.querySelector('.modal__descricao').innerHTML } </p> `
         
         modalContainer.innerHTML = `<img  class="modal__imagem" src="${imagem}" alt="imagem livro ">
         ${descricao}`
