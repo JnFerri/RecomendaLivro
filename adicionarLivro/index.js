@@ -38,7 +38,7 @@ function postarLivro(){
 
     for(i = 0; i < listaObjetos.length ; i++){
         var publicacao = `<div class="livro">
-        <button class="livro__link" >
+        <button class="livro__link" onclick='selecionarModal()' >
             <img src="${listaObjetos[i].imagem}" alt="imagem livro" class="livro__img">
             <h3 class="livro__titulo">${listaObjetos[i].nome}</h3>
             <p class="livro__autor">Autor: ${listaObjetos[i].autor}</p>
