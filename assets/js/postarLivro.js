@@ -25,15 +25,7 @@ function adicionarNovoLivro(){
             
     }
 
-    for(i = 0; i < listaObjetos.length ; i++){
-        var publicacao = `<div class="livro">
-        <button  class="livro__link" >
-            <img src="${listaObjetos[i].imagem}" alt="imagem livro" class="livro__img">
-            <h3 class="livro__titulo">${listaObjetos[i].nome}</h3>
-            <p class="livro__autor">Autor: ${listaObjetos[i].autor}</p>
-            <p style="display: none" class="modal__descricao">${listaObjetos[i].descricao}</p>
-        </button>
-    </div>`}
+    
 
 function postarLivro(){
     var localPostagem = document.querySelector('.livros__container')
