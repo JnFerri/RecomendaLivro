@@ -42,6 +42,7 @@ function postarLivro(){
             <img src="${listaObjetos[i].imagem}" alt="imagem livro" class="livro__img">
             <h3 class="livro__titulo">${listaObjetos[i].nome}</h3>
             <p class="livro__autor">Autor: ${listaObjetos[i].autor}</p>
+            <p class="descricao" style="visibility: hidden">${listaObjetos[i].descricao}</p>
         </button>
     </div>`
 
