@@ -68,10 +68,9 @@ for (var i = 0; i < descendentes.length; i++) {
 function fecharModal(){
     modal.style.visibility = "hidden"
 }
-
-function fixCabecalho(){
+window.addEventListener('scroll', function(){
     var cabecalho = document.querySelector('.cabecalho')
-    var medida = cabecalho.forEach
-
-    console.log(medida)
-}
+    if(window.pageYOffset > 100){
+        
+    }
+    })
