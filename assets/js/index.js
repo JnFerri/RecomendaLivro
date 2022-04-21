@@ -69,3 +69,9 @@ function fecharModal(){
     modal.style.visibility = "hidden"
 }
 
+function fixCabecalho(){
+    var cabecalho = document.querySelector('.cabecalho')
+    var medida = cabecalho.forEach
+
+    console.log(medida)
+}
