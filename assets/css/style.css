@@ -234,19 +234,25 @@
         margin-bottom: 0;
     }
     .apresentacao__paragrafo{
-        width: 100%;
+        width: auto;
+        font-size: 16px;
+        text-align:justify;
+
     }
 
     .modal{
+        top: 1%;
         width: 95%;
-        right: 0%;
+        right: 1%;
         left: 1%;
+        
 
     }
     .modal__container{
         flex-direction: column;
         align-items: center;
         width: 80%;
+        
 
     }
 
@@ -255,8 +261,9 @@
 
     }
     .modal__container p{width: 100%;
+        
         font-size: 16px;
-    margin: auto;
+    margin: 1rem auto;
 text-align: justify;}
     .modal__botao{
         padding: auto;
