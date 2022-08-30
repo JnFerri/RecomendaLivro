@@ -50,7 +50,7 @@ for (var i = 0; i < descendentes.length; i++) {
 
     descendentes[i].addEventListener('click', function (){
     var imagem = this.querySelector('.livro__img').src
-     var descricao = `<p class='modal__descricao'>${this.querySelector('.modal__descricao').innerHTML } </p> `
+     var descricao = `${this.querySelector('#desc').innerHTML}`
         
         modalContainer.innerHTML = `<img  class="modal__imagem" src="${imagem}" alt="imagem livro ">
         ${descricao}`

@@ -170,6 +170,16 @@
 
  }
 
+ #desc{
+    position: absolute;
+    
+ }
+
+ .paragrafo__livro{
+    font-size: 40px;
+    text-align: justify;
+ }
+
 
  
  /*animaçoes*/
@@ -225,5 +235,29 @@
     .apresentacao__paragrafo{
         width: 100%;
     }
-    
+
+    .modal{
+        width: 95%;
+        right: 0%;
+        left: 1%;
+
+    }
+    .modal__container{
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+
+    }
+
+    .modal__imagem{
+        width: 80%;
+
+    }
+    .modal__descricao{width: 80%;
+    margin: auto;
+text-align: justify;}
+    .modal__botao{
+        padding: auto;
+        width: 50%;
+    }
 }
