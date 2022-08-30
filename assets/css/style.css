@@ -175,8 +175,8 @@
     
  }
 
- .paragrafo__livro{
-    font-size: 40px;
+ .modal__container p{
+    font-size: 22px;
     text-align: justify;
  }
 
@@ -253,7 +253,8 @@
         width: 80%;
 
     }
-    .modal__descricao{width: 80%;
+    .modal__container p{width: 100%;
+        font-size: 16px;
     margin: auto;
 text-align: justify;}
     .modal__botao{
