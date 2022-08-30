@@ -191,3 +191,39 @@
     opacity: 1;
     transform: translate3d(0px , 0px , 0px);
 }
+
+@media(max-width:798px){
+    .apresentacao__container{
+        flex-direction: column;
+    }
+    .apresentacao__titulo{
+        text-align: center;
+    }
+    .apresentacao__lista{
+        width: 80%;
+    }
+
+    .apresentacao__video{
+        width: 80%;
+        margin: 5rem 0;
+    }
+
+    .livro{
+        flex-direction: column;
+        align-self: center;
+        width: 80%;
+    }
+
+    .livro__titulo{
+        width: auto;
+        padding: 0;
+        text-align: center;
+        margin: 0 5%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .apresentacao__paragrafo{
+        width: 100%;
+    }
+    
+}

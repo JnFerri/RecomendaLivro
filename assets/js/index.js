@@ -44,7 +44,7 @@ var imgModal = document.querySelector('.modal__imagem').src
 var descendentes = document.querySelectorAll('.livro__link')
 
 function selecionarModal(){
-
+    
     var descendentes = document.querySelectorAll('.livro__link')
 for (var i = 0; i < descendentes.length; i++) {
 

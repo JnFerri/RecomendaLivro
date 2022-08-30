@@ -5,9 +5,8 @@ function cabecalho(header){
     <div class="cabecalho__container">
         <img src="assets/img/logo.png" alt="logo" class="cabecalho__logo">
         <nav class="cabecalho__nav">
-            <a href="index.html">Pagina Inicial</a>
-            <a href="Recomendacoes.html">Recomendações</a>
-            <a href="assinatura.html">Assinatura</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#recomendacoes">Recomendações</a>
         </nav>  
     </div>
 </section>`

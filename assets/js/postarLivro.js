@@ -72,7 +72,7 @@ function abrirForm(){
     </div>
     <div class="formulario__elementos">
         <label for="descricaodoLivro" class="formulario__label">Descrição do livro:</label>
-        <textarea name="descricaoLivro" id="descricaoLivro" cols="100" rows="30" class="descricaoLivro" placeholder="Descricao do Livro">
+        <textarea name="descricaoLivro" id="descricaoLivro" cols="60" rows="10" class="descricaoLivro" placeholder="Descricao do Livro">
          </textarea>
     </div>
    <input type="button" value="Adicionar Livro" class="formulario__botao formulario__elemento" onclick="adicionarNovoLivro()">

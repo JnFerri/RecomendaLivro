@@ -21,3 +21,15 @@ footer{
     margin-right: 50px;
     color: #705A32;
 }
+
+@media(max-width:798px){
+    .footer__container{flex-direction: column;
+    align-items: center;}
+    .footer__img{
+        margin: auto;
+        
+    }
+    .footer__contato{
+        margin: auto;
+    }
+}

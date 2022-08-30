@@ -23,7 +23,6 @@ header{
 }
 
 .cabecalho__nav a{
-    display: block;
     padding: 10px;
     margin-left: 20px;
     text-decoration: none;
@@ -37,4 +36,27 @@ header{
 
 .cabecalho__nav a:hover{
     transform: scale(1.1);
+}
+
+
+@media(max-width:798px){
+    .cabecalho__container{
+        flex-direction: column;
+        padding: 20px 0 20px 0;
+    }
+
+    .cabecalho__nav a{
+        text-align: center;
+        width: 100%;
+        margin: 10px 5%;
+    }
+
+    .cabecalho__nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        margin: auto;
+    }
+    
 }

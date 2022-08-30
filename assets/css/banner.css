@@ -22,3 +22,15 @@ font-family: 'Special Elite', cursive;
 
 }
 
+
+@media(max-width:798px){
+    .banner__imagem{
+        height: 50vh;
+    }
+    .banner__titulo{
+        font-size: 48px;
+        text-align: center;
+        margin: auto;
+    }
+
+}
