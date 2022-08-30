@@ -24,6 +24,7 @@ footer{
 
 @media(max-width:798px){
     .footer__container{flex-direction: column;
+        margin: 0 5%;
     align-items: center;}
     .footer__img{
         margin: auto;

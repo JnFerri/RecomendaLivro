@@ -114,14 +114,15 @@ main{
         align-items: center;
     }
     .formulario__titulo{
-        margin: auto;
+        margin: 10px 0;
         width: auto;
+        font-size: 20px;
         text-align: center;
     }
 
     .formulario_botaoabrir{
         margin: auto;
-        width: 98%;
+        width: 80%;
     }
     .formulario__container{
         
